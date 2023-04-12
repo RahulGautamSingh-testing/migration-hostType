@@ -1,0 +1,18 @@
+{
+  "hostRules": [
+            {
+              "hostType": "dotnet",
+              "baseUrl": "https://some.domain.com",
+              "token": "123test"
+            },
+            {
+              "hostType": "adoptium-java",
+              "domainName": "domain.com",
+              "token": "123test"
+            },
+            {  "hostType": "npm",domainName: "domain.com/", token: "123test" },
+            { "hostType": "docker", matchHost: "domain.com/", token: "123test" },
+            { "hostName": "some.domain.com", token: "123test" }
+          ],
+    "configMigration": true
+  }
